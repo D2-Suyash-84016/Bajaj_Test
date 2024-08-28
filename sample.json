@@ -1,0 +1,23 @@
+{
+  "key1": 10,
+  "key2": {
+    "key3": "value3",
+    "destination": "finalValue"
+  },
+  "key4": [
+    1,
+    2,
+    {
+      "nestedKey": {
+        "anotherKey": "anotherValue",
+        "destination": "anotherFinalValue"
+      }
+    }
+  ],
+  "key5": "someOtherValue",
+  "key6": {
+    "deepNested": {
+      "destination": "deepValue"
+    }
+  }
+}
